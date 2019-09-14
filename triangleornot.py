@@ -10,7 +10,4 @@ def checkValidity(a, b, c):
 a = 7
 b = 10
 c = 5
-if checkValidity(a, b, c): 
-    print("yes")  
-else: 
-    print("no") 
+print(checkValidity(a, b, c)) 
