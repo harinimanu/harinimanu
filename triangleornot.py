@@ -2,9 +2,9 @@ def checkValidity(a, b, c):
       
     # check condition  
     if (a + b <= c) or (a + c <= b) or (b + c <= a) : 
-        return False
+        print("yes")
     else: 
-        return True        
+        print("no")        
   
 # driver code  
 a = 7
