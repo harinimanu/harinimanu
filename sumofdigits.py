@@ -5,6 +5,6 @@ while(n>0):
     tot=tot+dig
     n=n//10
 if(tot%3==0):
-    print("YES")
+    print("Yes")
 else:
-    print("NOT")
+    print("Not")
