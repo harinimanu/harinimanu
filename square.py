@@ -1,8 +1,7 @@
-a,b=map(int,input().split())
-b,c=map(int,input().split())
-c,d=map(int,input().split())
-d,a=map(int,input().split())
-if(a**2-c**2==b**2-d**2):
-    print("yes")
-else:
-    print("no")
+N=int(input())
+rev=0
+while(N>0):
+    dig=N%10
+    rev=rev*10+dig
+    N=N//10
+print(rev)
