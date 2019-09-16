@@ -6,9 +6,9 @@ def getProduct(n):
         product = product * (n % 10) 
         n = n // 10
   
-    return product 
+    print( product) 
   
 # Driver Code 
 n=int(input())
-print(getProduct(n)) 
+getProduct(n)
   
