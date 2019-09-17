@@ -20,7 +20,7 @@ def isSubset(arr1, arr2, m, n):
     # If we reach here then all 
     # elements of arr2[] are present 
     # in arr1[]  
-    return 1
+    #return 1
   
  
 n,m=map(int,input().split())  
