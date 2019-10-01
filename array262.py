@@ -1,7 +1,3 @@
-n,m=map(int,input().split())
-k=list(map(int,input().split()))
-if m in k:
-  print("yes",end=" ")
-  print(k.count(m),end=" ")
-else:
-  print("no")
+n,k=input().split()
+for i in range(int(k)-1,len(n),int(k)):
+  print(n[i],end=" ")
